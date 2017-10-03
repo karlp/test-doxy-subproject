@@ -1,0 +1,17 @@
+GENERATE_LATEX=NO
+EXTRACT_ALL=YES
+FULL_PATH_NAMES=NO
+JAVADOC_AUTOBRIEF=YES
+OPTIMIZE_OUTPUT_FOR_C=YES
+WARN_LOGFILE = doxywarn.log
+SOURCE_BROWSER=YES
+
+PREDEFINED += PROJECT_AAA
+INCLUDE_PATH+=../../include
+#INCLUDE_PATH+=../../include/aaa
+#INPUT+=../../include/common.h
+#INPUT+=../../include/periph.h
+INPUT += ../../src/main.c
+INPUT += ../../src/common.c
+INPUT += ../../src/aaa/periph.c
+
