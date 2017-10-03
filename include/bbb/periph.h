@@ -1,4 +1,6 @@
-/**@{*/
+/** @defgroup periph_bbb
+ * @ingroup periph
+ * @{*/
 //#pragma once
 
 /**

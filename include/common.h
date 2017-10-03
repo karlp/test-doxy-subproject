@@ -1,4 +1,3 @@
-/**@{*/
 //#pragma once
 
 /** @defgroup common Common defines
@@ -28,6 +27,9 @@
 #define ODD_4 7
 /**@}*/
 
+
+/** @defgroup common_functions Common Functions
+ *@{*/
 /**
  * Print out all the even defines.
  * @returns who cares?
@@ -38,5 +40,4 @@ int print_even(void);
  * @returns something, maybe.
  */
 int print_odd(void);
-
 /**@}*/
