@@ -1,4 +1,5 @@
-#pragma once
+/**@{*/
+//#pragma once
 
 /**
  * Project BBB has a different magic thingy
@@ -7,3 +8,4 @@
  * @returns blend ratio
  */
 int periph_magic(int magic, int spices);
+/**@}*/

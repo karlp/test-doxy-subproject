@@ -1,4 +1,5 @@
-#pragma once
+/**@{*/
+//#pragma once
 
 /**
  * Project AAA implementation of some magic function
@@ -6,3 +7,5 @@
  * @returns bbq sauce
  */
 int periph_magic(int magic);
+
+/**@}*/

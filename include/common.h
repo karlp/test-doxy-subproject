@@ -1,6 +1,7 @@
-#pragma once
+/**@{*/
+//#pragma once
 
-/** @defgroup common_defs Common defines
+/** @defgroup common Common defines
 
 @brief Common Defined Constants and Types
 
@@ -8,7 +9,7 @@
  */
 
 
-/** @defgroup common_even_numbers
+/** @defgroup common_even_numbers even numbers
  * @ingroup common
  *
  *@{*/
@@ -18,7 +19,7 @@
 #define EVEN_4	8
 /**@}*/
 
-/** @defgroup common_odd_numbers
+/** @defgroup common_odd_numbers odd numbers
  * @ingroup common
  *@{*/
 #define ODD_1 1
@@ -38,3 +39,4 @@ int print_even(void);
  */
 int print_odd(void);
 
+/**@}*/

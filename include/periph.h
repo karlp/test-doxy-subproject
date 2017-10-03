@@ -1,4 +1,5 @@
-#pragma once
+/**@{*/
+//#pragma once
 
 #if defined (PROJECT_AAA)
 #include <aaa/periph.h>
@@ -14,3 +15,4 @@
  * @returns doesn't matter, no one will use it anyway
  */
 int periph_common_op(int blah);
+/**@}*/
